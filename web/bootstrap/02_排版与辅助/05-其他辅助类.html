@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>其他辅助类</title>
+    <!--bootstrap封装的css样式库-->
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.css" rel="stylesheet">
+    <!--bootstrap封装的js插件-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.js"></script>
+    <!--JQuery插件-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <!--验证规则样式  css-->
+    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.css" rel="stylesheet">
+    <!--核心验证文件  js-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+    <!--中文校验-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/language/zh_CN.js"></script>
+
+</head>
+<body>
+1.通过添加一个类，可以将任意元素向左或向右浮动
+<br>
+
+<div class="pull-left">左浮动</div>
+<div class="pull-right">右浮动</div>
+<br>
+<br>
+<br>
+2.通过为父元素添加 clearfix 类可以很容易地清除浮动
+<br>
+<div class="clearfix">
+    <p class='pull-left'>浮动元素</p>
+    <p class='pull-left'>浮动元素</p>
+</div>
+<br>
+<br>
+<br>
+3.内容块居中
+任意块级元素内容左右居中,注意设置一下宽度  主要通过 margin:x auto；并且设置了 display:block;。
+<br>
+<div class="container">
+    <div class="center-block text-center" style="width: 50%; background: red">
+        <p>内容居中</p>
+    </div>
+</div>
+<br>
+<br>
+<br>
+4.显示或隐藏内容
+<br>
+<div class="show">显示</div>
+<div class="hidden">隐藏</div>
+<br>
+<br>
+<br>
+5三角符号
+显示向下或者向上的三角形符号
+<br>
+<span class="caret"></span>
+<br>
+<br>
+<br>
+6关闭按钮
+通过使用一个象征关闭的图标，可以让模态框和警告框消失。
+<br>
+<button type="button" class="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</body>
+</html>
